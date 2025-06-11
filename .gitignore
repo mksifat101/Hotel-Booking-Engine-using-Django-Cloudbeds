@@ -179,3 +179,4 @@ ssh_key.pem
 ssh_key.pem.pub
 
 backup/
+static/
