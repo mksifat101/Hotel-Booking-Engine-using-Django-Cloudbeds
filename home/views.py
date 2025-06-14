@@ -23,6 +23,7 @@ def home_home(request):
 
     hotels = res_json.get("data", [])
 
+
     data = {
         'hotels': hotels,
     }

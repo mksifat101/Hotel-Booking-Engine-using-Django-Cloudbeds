@@ -5,7 +5,7 @@
 
     <section class="section-bg pt-40 pb-40 relative z-5">
       <div class="section-bg__item col-12">
-        <img src="{% static 'gotrip/images/herobg.jpg' %}" alt="image" class="w-full h-full object-cover">
+        <img src="{% static 'gotrip/images/herobg.jpg' %}" alt="image" class="w-full h-full object-cover" style="padding: 10px; border-radius: 20px;">
       </div>
 
       <div class="container">
@@ -85,10 +85,11 @@
                   <div class="col-auto">
 
                     <div class="relative js-form-dd">
-                      <button class="d-flex items-center px-15 py-5 lh-16 text-14 rounded-100 border-light -dd-button" data-x-dd-click="dropdownRating">
-                        Star Rating
+                      <div class="d-flex items-center px-15 py-5 lh-16 text-14 rounded-100 border-light -dd-button" data-x-dd-click="dropdownRating">
+                        
+                        <span class="js-dropdown-title">Star Rating</span>
                         <i class="icon icon-chevron-sm-down text-7 ml-15"></i>
-                      </button>
+                      </div>
 
                       <div class="dropRating" data-x-dd="dropdownRating" data-x-dd-toggle="-is-active">
                         <div class="px-20 py-20 rounded-4 bg-white border-light">
@@ -126,10 +127,10 @@
                   <div class="col-auto">
 
                     <div class="relative js-form-dd">
-                      <button class="d-flex items-center px-15 py-5 lh-16 text-14 rounded-100 border-light -dd-button" data-x-dd-click="dropdownRating">
+                      <dev class="d-flex items-center px-15 py-5 lh-16 text-14 rounded-100 border-light -dd-button" data-x-dd-click="dropdownRating">
                         Guest Rating
                         <i class="icon icon-chevron-sm-down text-7 ml-15"></i>
-                      </button>
+                      </dev>
 
                       <div class="dropRating" data-x-dd="dropdownRating" data-x-dd-toggle="-is-active">
                         <div class="px-20 py-20 rounded-4 bg-white border-light">
@@ -167,10 +168,10 @@
                   <div class="col-auto">
 
                     <div class="relative js-form-dd">
-                      <button class="d-flex items-center px-15 py-5 lh-16 text-14 rounded-100 border-light" data-x-dd-click="dropdownNeighbor">
+                      <dev class="d-flex items-center px-15 py-5 lh-16 text-14 rounded-100 border-light" data-x-dd-click="dropdownNeighbor">
                         Neighborhood
                         <i class="icon icon-chevron-sm-down text-7 ml-15"></i>
-                      </button>
+                      </dev>
 
                       <div class="dropRating" data-x-dd="dropdownNeighbor" data-x-dd-toggle="-is-active">
                         <div class="px-20 py-20 rounded-4 bg-white border-light">
